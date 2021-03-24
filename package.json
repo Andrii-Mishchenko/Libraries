@@ -9,7 +9,6 @@
     "prod": "webpack --mode=production",
     "start:dev": "webpack serve"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Andrii-Mishchenko/Libraries.git"
@@ -22,9 +21,10 @@
   },
   "homepage": "https://github.com/Andrii-Mishchenko/Libraries#readme",
   "dependencies": {
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1",
     "lodash.throttle": "^4.1.1"
   },
-  
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.12",
